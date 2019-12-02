@@ -403,39 +403,46 @@
 						<!-- Main -->
 						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Menu</div> <i class="icon-menu" title="Main"></i></li>
 						<li class="nav-item">
-							<a href="index.php" class="nav-link active">
+							<a href="index.html" class="nav-link active">
 								<i class="icon-home4"></i>
 								<span>
 									Inicio
 								</span>
 							</a>
 						</li>
+						<li class="nav-item nav-item-submenu">
+							<a href="#" class="nav-link"><i class="icon-copy"></i> <span>Tutorias</span></a>
+
+							<ul class="nav nav-group-sub" data-submenu-title="Layouts">
+								<li class="nav-item"><a href="datatable_basica.php" class="nav-link active">Listado de Tutorias</a></li>
+							</ul>
+						</li>
 
 						<li class="nav-item nav-item-submenu">
 							<a href="#" class="nav-link"><i class="icon-insert-template"></i> <span>Alumnos</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Form layouts">
 
-								<li class="nav-item"><a href="form_layout_horizontal.html" class="nav-link">Registrar</a></li>
-								<li class="nav-item"><a href="form_layout_vertical.html" class="nav-link">Editar</a></li>
-								<li class="nav-item"><a href="datatable_styling.html" class="nav-link">Lista de Alumnos</a></li>
+								<li class="nav-item"><a href="form_layout_horizontal.php" class="nav-link">Registrar</a></li>
+								<li class="nav-item"><a href="form_layout_vertical.php" class="nav-link">Editar</a></li>
+								<li class="nav-item"><a href="datatable_styling.php" class="nav-link">Lista de Alumnos</a></li>
 							</ul>
 						</li>
 
 						<li class="nav-item">
-							<a href="datatable_advanced.html" class="nav-link">
+							<a href="datatable_advanced.php" class="nav-link">
 								<i class="icon-list-unordered"></i>
 								<span>Materias</span>
 							</a>
 						</li>
 						<li class="nav-item">
-							<a href="table_basic.html" class="nav-link">
+							<a href="table_basic.php" class="nav-link">
 								<i class="icon-list-unordered"></i>
 								<span>Grupos</span>
 							</a>
 						</li>
 						</li>
 						<li class="nav-item">
-							<a href="datatable_sorting.html" class="nav-link">
+							<a href="datatable_sorting.php" class="nav-link">
 								<i class="icon-list-unordered"></i>
 								<span>Transporte</span>
 							</a>
@@ -455,8 +462,8 @@
 						<li class="nav-item nav-item-submenu">
 							<a href="#" class="nav-link"><i class="icon-grid"></i> <span>Maestros</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Basic components">
-								<li class="nav-item"><a href="components_modals.html" class="nav-link">Editar</a></li>
-								<li class="nav-item"><a href="datatable_basic.html" class="nav-link">Lista de Maestros/Añadir</a></li>
+								<li class="nav-item"><a href="components_modals.php" class="nav-link">Editar</a></li>
+								<li class="nav-item"><a href="datatable_basic.php" class="nav-link">Lista de Maestros/Añadir</a></li>
 
 						<!-- /components -->
 
